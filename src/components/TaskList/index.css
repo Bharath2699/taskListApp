@@ -46,6 +46,8 @@
     align-items: center;
   }
 
+  
+
  
   
     
@@ -129,6 +131,13 @@
     background-color: green;
     margin: 20px;
     padding: 20px 10px;
+    
+  }
+
+  .task-name{
+    max-height: 50px;
+    max-width:250px;
+    overflow-y: auto;
   }
   
   @media (max-width:767px){
@@ -152,6 +161,7 @@
     background-color: yellow;
     margin: 20px;
     padding: 20px 10px;
+    
   }
 
   @media (max-width:767px){
@@ -193,5 +203,5 @@
 
   span{
      color: blue;
-     font-size: 20px;
+     font-size: 15px;
   }
