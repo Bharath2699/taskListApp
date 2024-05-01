@@ -1,0 +1,42 @@
+.header{
+    height:5vh;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+  
+}
+
+
+
+.app-name{
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman';
+    font-weight: 600;
+}
+
+.task-summary{
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman';
+    font-weight: 600;
+}
+
+@media (max-width:767px){
+    .header{
+        height: 5vh;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .app-name{
+        font-size: 16px;
+    }
+
+    .task-summary{
+        font-size: 16px;
+    }
+}

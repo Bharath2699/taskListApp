@@ -1,0 +1,197 @@
+.list-card{
+    height:90vh;
+    width:100vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     background-color: rgb(211, 234, 247);
+     background-size: cover;
+     
+  }
+
+  @media (max-width:767px){
+    .list-card{
+      height: 90vh;
+      width: 90vw;
+    }
+  }
+  
+  
+  .top-field{
+      height:34%;
+      width:70%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: aliceblue;
+      margin: 15px;
+      box-shadow:0 4px 2px 0 aliceblue;
+      border-radius: 7px;
+  }
+
+  @media (max-width:767px){
+    .top-field{
+      height: 45%;
+      display: flex;
+      flex-direction: column;
+      justify-content:space-between;
+      align-items: center;
+    }
+  }
+
+  .user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+  
+    
+
+  .input-fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media (max-width:767px){
+    .count{
+      display: none;
+    }
+  }
+  
+  .taskInput{
+    height: 35px;
+    width:450px;
+    border-radius: 9px;
+    font-size: 20px;
+    font-family: Roboto;
+    text-align: center;
+  }
+
+  @media (max-width:767px){
+    .taskInput{
+      height: 30px;
+      width: 200px;
+      font-size: 16pz;
+    }
+  }
+  
+  .addButton{
+    height: 35px;
+    width:80px ;
+    border-radius: 9px;
+    background-color: yellow;
+    text-align: center;
+    cursor: pointer;
+    
+  }
+  
+  
+  .addButton:hover{
+    background-color: green;
+    height: 50px;
+    width:120px;
+  }
+
+  @media (max-width:767px){
+    .addButton:hover{
+      height: 30px;
+      width: 90px;
+    }
+  }
+
+
+  .bottom-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 65%;
+    width: 90%;
+    overflow-y: auto;
+    background-color:white;
+    border-radius: 7px;
+  }
+  
+ 
+  
+  
+  .completed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    height: 100px;
+    width: 80%;
+    background-color: green;
+    margin: 20px;
+    padding: 20px 10px;
+  }
+  
+  @media (max-width:767px){
+    .completed{
+      height: 450px;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content:flex-start;
+      align-items: center;
+    }
+  }
+
+  .notCompleted{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    height: 100px;
+    width: 80%;
+    background-color: yellow;
+    margin: 20px;
+    padding: 20px 10px;
+  }
+
+  @media (max-width:767px){
+    .notCompleted{
+      height: 450px;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content:flex-start;
+      align-items: center;
+    }
+  }
+  
+  .check-box{
+    height: 30px;
+    width: 30px;
+  }
+  
+ 
+
+  .delete-button{
+    height: 35px;
+    width: 80px;
+    background-color: red;
+    border-radius: 9px;
+    text-align: center;
+  }
+
+ 
+
+  select{
+    height: 30px;
+    width: 140px;
+    border-width: opx;
+    border-color: yellow;
+  }
+
+  
+
+  span{
+     color: blue;
+     font-size: 20px;
+  }
